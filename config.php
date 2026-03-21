@@ -5,19 +5,19 @@
 
 // index
 $home = [
-    "title" => "Stay on top of your <span class='text-blue-600'>subscriptions</span> effortlessly",
-    "description" => "SubFox is your go-to app for managing subscriptions, helping you keep track and save money.",
-    "screenshot" => "/assets/hero.webp",
+    "title" => "Gestiona tu negocio con <span class='text-blue-600'>Negox</span> de manera fácil y eficiente",
+    "description" => "Negox El control total de tu negocio o emprendimiento en la palma de tu mano, optimizando cada recurso.",
+    "screenshot" => "/assets/hero.png",
 ];
 
 // common
 $common = [
     'appStoreUrl' => "https://apps.apple.com/us/app/subfox/id6754495902",
     'googlePlayUrl' => "https://play.google.com/store/apps/details?id=com.app.app", // could be null
-    'appName' => "SubFox",
+    'appName' => "Negox App",
     'appVersion' => "1.0.0",
     'appTitle' => "Never lose track of your subscriptions again",
-    'appDescription' => "SubFox is a subscription management app that helps you track your subscriptions and save money.",
+    'appDescription' => "Negox El control total de tu negocio o emprendimiento en la palma de tu mano, optimizando cada recurso.",
     'appRatingAppStore' => [
         'totalReviews' => 10,
         'rating' => 4.5,
@@ -26,7 +26,7 @@ $common = [
         'totalReviews' => 10,
         'rating' => 4.5,
     ], // could be null
-    'appIcon' => "/assets/app_icon.webp",
+    'appIcon' => "/assets/app_icon.png",
     'supportEmail' => "support@subfox.app",
     'screenshotRoundedCorners' => true, // Set to false for sharp corners
 ];
@@ -34,22 +34,22 @@ $common = [
 
 // features with screenshots
 $featuresScreenshots = [
-    "title" => "Powerful Features to Enhance Your Experience",
-    "description" => "Discover the tools that make managing your subscriptions a breeze.",
+    "title" => "Funciones potentes para mejorar tu experiencia.",
+    "description" => "Descubre las herramientas que te facilitarán la gestión de tu negocio.",
     "featuresList" => [
         [
-            "title" => "Custom Services",
-            "description" => "Easily add and manage custom services tailored to your needs.",
+            "title" => "Inventario Personalizado",
+            "description" => "Añada y gestione fácilmente productos o servicios personalizados adaptados a sus necesidades.",
             "image" => "/assets/feature_services.webp",
         ],
         [
-            "title" => "Payment Dates",
-            "description" => "Select and track your subscription payment dates effortlessly.",
+            "title" => "Orden de las finanzas",
+            "description" => "Realiza un seguimiento de las finanzas de tu negocio.",
             "image" => "/assets/feature_payment_date.webp",
         ],
         [
-            "title" => "Dark Mode",
-            "description" => "Switch to dark mode for a comfortable viewing experience at night.",
+            "title" => "Recordatorios de pago",
+            "description" => "No vuelvas a perderte un pago gracias a los recordatorios puntuales.",
             "image" => "/assets/feature_darkmode.webp",
         ],
     ]
@@ -57,55 +57,55 @@ $featuresScreenshots = [
 
 
 $featuresIcons = [
-    "title" => "Comprehensive Subscription Management",
-    "description" => "Explore a wide range of features designed to enhance your subscription management experience.",
+    "title" => "Gestión total de tu negocio",
+    "description" => "Descubre una amplia gama de funciones diseñadas para mejorar tu experiencia de gestión de negocio.",
     "featuresList" => [
         [
-            "title" => "Offline Access",
-            "description" => "Access your subscriptions even when you're offline.",
+            "title" => "Acceso sin conexión",
+            "description" => "Accede a Negox incluso cuando no tengas conexión a internet.",
             "icon" => "cloud_off",
         ],
         [
-            "title" => "Material 3 with iOS Feel",
-            "description" => "Enjoy a seamless experience with Material 3 design and Cupertino iOS aesthetics.",
+            "title" => "Material 3 con la sensación de iOS",
+            "description" => "Disfruta de una experiencia impecable con el diseño Material 3 y la estética de iOS.",
             "icon" => "phone_iphone",
         ],
         [
-            "title" => "Payment Reminders",
-            "description" => "Never miss a payment with timely reminders.",
+            "title" => "Recordatorios de pago",
+            "description" => "No vuelvas a perderte un pago gracias a los recordatorios puntuales.",
             "icon" => "notifications_active",
         ],
         [
             "title" => "Widgets",
-            "description" => "Add widgets to your home screen for quick access.",
+            "description" => "Agrega widgets a tu pantalla de inicio para un acceso rápido.",
             "icon" => "widgets",
         ],
         [
-            "title" => "Custom Service",
-            "description" => "Tailor your subscription management to your needs.",
+            "title" => "Inventario personalizado",
+            "description" => "Adapte la gestión de inventario a sus necesidades.",
             "icon" => "build",
         ],
         [
-            "title" => "Categories",
-            "description" => "Organize your subscriptions into categories.",
+            "title" => "Categorias",
+            "description" => "Organiza tu inventario por categorías.",
             "icon" => "category",
         ],
         [
-            "title" => "Payment Methods",
-            "description" => "Manage multiple payment methods with ease.",
+            "title" => "Métodos de pago",
+            "description" => "Gestiona múltiples métodos de pago con facilidad",
             "icon" => "credit_card",
         ],
         [
-            "title" => "Trial Subscriptions",
-            "description" => "Keep track of your trial subscriptions and never get charged unexpectedly.",
+            "title" => "Gestiona los clientes Fiados",
+            "description" => "Lleva un registro de tus clientes a los cuales te deben dinero (Fiados).",
             "icon" => "hourglass_empty",
         ],
     ]
 ];
 
 $ratings = [
-    "title" => "What our users say",
-    "description" => "Join thousands of satisfied users who have taken control of their subscriptions and saved money.",
+    "title" => "Lo que dicen nuestros usuarios",
+    "description" => "Únete a miles de usuarios satisfechos que han tomado el control de sus sus negocios.",
     "ratingsList" => [
         [
             "title" => "Kurosaki",
@@ -135,60 +135,56 @@ $ratings = [
 ];
 
 $bottomCta = [
-    "title" => "Get the app",
-    "description" => "SubFox is a subscription management app that helps you track your subscriptions and save money.",
+    "title" => "Instalar Aplicación",
+    "description" => "Negox El control total de tu negocio o emprendimiento en la palma de tu mano, optimizando cada recurso.",
 ];
 
 
 // footer
 $footer = [
-    'description' => "SubFox is a subscription management app that helps you track your subscriptions and save money.",
+    'description' => "Negox El control total de tu negocio o emprendimiento en la palma de tu mano, optimizando cada recurso.",
     'navigation' => [
         [
-            "title" => "FAQs",
+            "title" => "Preguntas frecuentes",
             "link" => "/faq.php",
             "isExternal" => false,
         ],
         [
-            "title" => "Contact",
+            "title" => "Contacto",
             "link" => "/contact.php",
             "isExternal" => false,
         ],
         [
-            "title" => "Feature Request",
+            "title" => "Solicitud de función",
             "link" => "https://subfox.canny.io/feature-requests",
             "isExternal" => true,
         ],
+        
         [
-            "title" => "Press Kit",
-            "link" => "/assets/press-kit.zip",
-            "isExternal" => true,
-        ],
-        [
-            "title" => "Claim Reward",
+            "title" => "Reclamar recompensa",
             "link" => "/claim-reward.php",
             "isExternal" => false,
         ]
     ],
     'socials' => [
         [
-            "title" => "Reddit",
-            "link" => "https://www.reddit.com/r/subfox",
+            "title" => "Tik Tok",
+            "link" => "https://www.tiktok.com/@centro.digital.st?_r=1&_t=ZS-94h9ZbDIahw",
             "isExternal" => true,
         ],
         [
-            "title" => "X",
-            "link" => "https://x.com/subfoxapp",
+            "title" => "Instagram",
+            "link" => "https://www.instagram.com/centrodigitalsv?igsh=cWR3OTd5eHAwOTA1",
             "isExternal" => true,
         ],
         [
             "title" => "GitHub",
-            "link" => "https://github.com/subfoxapp",
+            "link" => "https://github.com/Alexandmrtz",
             "isExternal" => true,
         ],
         [
             "title" => "Youtube",
-            "link" => "https://youtube.com/@subfoxapp",
+            "link" => "https://youtube.com/@centrodigitalstudio?si=dRWE9dBVIpw14b8z",
             "isExternal" => true,
         ],
 
@@ -214,8 +210,8 @@ $footer = [
 
 
     ],
-    "copyright" => "© 2025 SubFox. All rights reserved.",
-    "message" => "Made with ❤️ in Pakistan",
+    "copyright" => "© 2026 Negox. Reservados todos los derechos.",
+    "message" => "Hecho en El Salvador con 💙",
 ];
 
 
@@ -358,5 +354,5 @@ $redeemCodesCampaign = [
     ],
     "buttonText" => "🎁 Claim Launch Reward",
     "maxClaimLimits" => 1, // Maximum claims per user/device
-    "id" => "subfox_launch_2025" // Unique campaign identifier
+    "id" => "Negox_Launch_2026" // Unique campaign identifier
 ];
