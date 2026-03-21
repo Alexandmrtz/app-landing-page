@@ -16,7 +16,7 @@ $common = [
     'googlePlayUrl' => "https://play.google.com/store/apps/details?id=com.app.app", // could be null
     'appName' => "Negox App",
     'appVersion' => "1.0.0",
-    'appTitle' => "Never lose track of your subscriptions again",
+    'appTitle' => "El Salvador",
     'appDescription' => "Negox El control total de tu negocio o emprendimiento en la palma de tu mano, optimizando cada recurso.",
     'appRatingAppStore' => [
         'totalReviews' => 10,
@@ -27,7 +27,7 @@ $common = [
         'rating' => 4.5,
     ], // could be null
     'appIcon' => "/assets/app_icon.png",
-    'supportEmail' => "support@subfox.app",
+    'supportEmail' => "centrodigitalsv@gmail.com",
     'screenshotRoundedCorners' => true, // Set to false for sharp corners
 ];
 
@@ -40,17 +40,17 @@ $featuresScreenshots = [
         [
             "title" => "Inventario Personalizado",
             "description" => "Añada y gestione fácilmente productos o servicios personalizados adaptados a sus necesidades.",
-            "image" => "/assets/feature_services.webp",
+            "image" => "/assets/feature_services.png",
         ],
         [
             "title" => "Orden de las finanzas",
             "description" => "Realiza un seguimiento de las finanzas de tu negocio.",
-            "image" => "/assets/feature_payment_date.webp",
+            "image" => "/assets/feature_payment_date.png",
         ],
         [
             "title" => "Recordatorios de pago",
             "description" => "No vuelvas a perderte un pago gracias a los recordatorios puntuales.",
-            "image" => "/assets/feature_darkmode.webp",
+            "image" => "/assets/feature_darkmode.png",
         ],
     ]
 ];
@@ -108,26 +108,26 @@ $ratings = [
     "description" => "Únete a miles de usuarios satisfechos que han tomado el control de sus sus negocios.",
     "ratingsList" => [
         [
-            "title" => "Kurosaki",
-            "description" => "i tried another subscription manager before but this one looks so easy to use and better UI.. thanks to the develper👌",
+            "title" => "Lesly Leonor Lozano Cueva",
+            "description" => "Probé otra aplicación antes, pero este parece mucho más fácil de usar y tiene una interfaz de usuario mejor... ¡Gracias al desarrollador! 👌",
             "rating" => 5,
             "image" => null,
         ],
         [
-            "title" => "Faji",
-            "description" => "great app for tracking subscriptions",
+            "title" => "Felix Mendez",
+            "description" => "Muy buena aplicación, me encanta la interfaz y lo simplificada que esta!",
             "rating" => 5,
             "image" => null,
         ],
         [
-            "title" => "Rizwan Devid",
-            "description" => "Very useful and simple to use. Highly recommend! ✨",
+            "title" => "Manuel Garcia",
+            "description" => "De Verdad la recomiendo si están empezando a emprender, es una aplicación muy sencilla de usar.",
             "rating" => 4,
             "image" => null,
         ],
         [
-            "title" => "Aldy Iqman Nur Furqon",
-            "description" => "I think it's the best digital service subscription manager and reminder, clean user experience, light ⭐",
+            "title" => "Maria Rodriguez",
+            "description" => "Un orgullo para Usulutan, muy buena aplicación, me encanta la interfaz y lo simplificada que esta!",
             "rating" => 5,
             "image" => null,
         ],
