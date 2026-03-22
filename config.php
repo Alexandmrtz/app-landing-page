@@ -146,7 +146,7 @@ $footer = [
     'navigation' => [
         [
             "title" => "Preguntas frecuentes",
-            "link" => "/faq.php",
+            "link" => "/faq.ph",
             "isExternal" => false,
         ],
         [
@@ -156,7 +156,7 @@ $footer = [
         ],
         [
             "title" => "Solicitud de función",
-            "link" => "https://subfox.canny.io/feature-requests",
+            "link" => "https://www.instagram.com/centrodigitalsv?igsh=cWR3OTd5eHAwOTA1",
             "isExternal" => true,
         ],
         

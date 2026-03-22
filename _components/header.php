@@ -18,7 +18,7 @@ require_once __DIR__ . '/../config.php';
                     <a href="/download.php" 
                        class="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors duration-200 shadow-sm">
                         <span class="material-icons text-lg mr-2">download</span>
-                        Download
+                        Descargar
                     </a>
                 <?php endif; ?>
             </div>

@@ -6,7 +6,7 @@ require_once 'config.php';
 <html lang="en">
 <head>
     <?php 
-    $pageTitle = "Contact Us";
+    $pageTitle = "Contacto" . $common['appName'];
     $pageDescription = "Get in touch with the " . $common['appName'] . " team";
     include '_components/meta.php'; 
     ?>
@@ -20,7 +20,7 @@ require_once 'config.php';
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <!-- Page Header -->
             <div class="text-center mb-12">
-                <h1 class="text-4xl font-bold text-gray-900 mb-4">Contact Us</h1>
+                <h1 class="text-4xl font-bold text-gray-900 mb-4">Contacto</h1>
                 <p class="text-xl text-gray-600">We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
             </div>
             
@@ -28,8 +28,8 @@ require_once 'config.php';
                 <!-- Contact Information -->
                 <div class="space-y-8">
                     <div>
-                        <h2 class="text-2xl font-bold text-gray-900 mb-6">Get in Touch</h2>
-                        <p class="text-gray-600 mb-8">Have questions about <?php echo $common['appName']; ?>? We're here to help!</p>
+                        <h2 class="text-2xl font-bold text-gray-900 mb-6">Ponte en contacto</h2>
+                        <p class="text-gray-600 mb-8">¿Tienes preguntas sobre la aplicació <?php echo $common['appName']; ?>  ¡Estamos aquí para ayudarte!</p>
                     </div>
                     
                     <!-- Contact Methods -->
@@ -40,7 +40,7 @@ require_once 'config.php';
                             </div>
                             <div>
                                 <h3 class="text-lg font-semibold text-gray-900 mb-2">Email</h3>
-                                <p class="text-gray-600">Send us an email and we'll get back to you within 24 hours.</p>
+                                <p class="text-gray-600">Envíanos un correo electrónico</p>
                                 <a href="mailto:<?php echo $common['supportEmail']; ?>" 
                                    class="text-blue-600 hover:text-blue-700 font-medium"><?php echo $common['supportEmail']; ?></a>
                             </div>
@@ -51,8 +51,8 @@ require_once 'config.php';
                                 <span class="material-icons text-green-600">chat</span>
                             </div>
                             <div>
-                                <h3 class="text-lg font-semibold text-gray-900 mb-2">Community</h3>
-                                <p class="text-gray-600">Join our community for discussions and updates.</p>
+                                <h3 class="text-lg font-semibold text-gray-900 mb-2">Redes Sociales</h3>
+                                <p class="text-gray-600">Únete a nuestra comunidad para participar en debates y estar al día.</p>
                                 <div class="flex gap-3 mt-2">
                                     <?php foreach ($footer['socials'] as $social): ?>
                                         <a href="<?php echo $social['link']; ?>" 
@@ -63,22 +63,13 @@ require_once 'config.php';
                             </div>
                         </div>
                         
-                        <div class="flex items-start space-x-4">
-                            <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                                <span class="material-icons text-purple-600">help</span>
-                            </div>
-                            <div>
-                                <h3 class="text-lg font-semibold text-gray-900 mb-2">Support</h3>
-                                <p class="text-gray-600">Check our FAQ section for quick answers.</p>
-                                <a href="/faq" class="text-blue-600 hover:text-blue-700 font-medium">Visit FAQ</a>
-                            </div>
-                        </div>
+                       
                     </div>
                     
                     <!-- App Download -->
                     <div class="bg-white rounded-xl border border-gray-200 p-6">
-                        <h3 class="text-lg font-semibold text-gray-900 mb-4">Download <?php echo $common['appName']; ?></h3>
-                        <p class="text-gray-600 mb-4">Get the app and start managing your subscriptions today.</p>
+                        <h3 class="text-lg font-semibold text-gray-900 mb-4">Descarga <?php echo $common['appName']; ?></h3>
+                        <p class="text-gray-600 mb-4">Descarga la aplicación y empieza a gestionar tu negocio.</p>
                         <div class="flex flex-col sm:flex-row gap-3">
                             <?php if ($common['appStoreUrl']): ?>
                                 <a href="<?php echo $common['appStoreUrl']; ?>" 
@@ -101,18 +92,18 @@ require_once 'config.php';
                 
                 <!-- Contact Form -->
                 <div class="bg-white rounded-xl border border-gray-200 p-8">
-                    <h2 class="text-2xl font-bold text-gray-900 mb-6">Send us a Message</h2>
+                    <h2 class="text-2xl font-bold text-gray-900 mb-6">Envíanos un mensaje</h2>
                     
                     <form id="contactForm" class="space-y-6">
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                             <div>
-                                <label for="firstName" class="block text-sm font-medium text-gray-700 mb-2">First Name</label>
+                                <label for="firstName" class="block text-sm font-medium text-gray-700 mb-2">Primer nombre</label>
                                 <input type="text" id="firstName" name="firstName" 
                                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors duration-200"
                                        placeholder="John">
                             </div>
                             <div>
-                                <label for="lastName" class="block text-sm font-medium text-gray-700 mb-2">Last Name</label>
+                                <label for="lastName" class="block text-sm font-medium text-gray-700 mb-2">Apellido</label>
                                 <input type="text" id="lastName" name="lastName" 
                                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors duration-200"
                                        placeholder="Doe">
@@ -127,30 +118,30 @@ require_once 'config.php';
                         </div>
                         
                         <div>
-                            <label for="subject" class="block text-sm font-medium text-gray-700 mb-2">Subject</label>
+                            <label for="subject" class="block text-sm font-medium text-gray-700 mb-2">Asunto</label>
                             <select id="subject" name="subject" required
                                     class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors duration-200">
-                                <option value="">Select a subject</option>
-                                <option value="general">General Inquiry</option>
-                                <option value="support">Technical Support</option>
-                                <option value="feature">Feature Request</option>
-                                <option value="bug">Bug Report</option>
-                                <option value="partnership">Partnership</option>
+                                <option value="">Seleccionar un asunto</option>
+                                <option value="general">Consulta General</option>
+                                <option value="support">Soporte Técnico</option>
+                                <option value="feature">Solicitud de Funcionalidad</option>
+                                <option value="bug">Reporte de Error</option>
+                                <option value="partnership">Socios de Negocio</option>
                             </select>
                         </div>
                         
                         <div>
-                            <label for="message" class="block text-sm font-medium text-gray-700 mb-2">Message</label>
+                            <label for="message" class="block text-sm font-medium text-gray-700 mb-2">Mensaje</label>
                             <textarea id="message" name="message" rows="5" required
                                       class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors duration-200"
-                                      placeholder="Tell us how we can help you..."></textarea>
+                                      placeholder="Dinos cómo podemos ayudarte..."></textarea>
                         </div>
                         
                         <div class="flex flex-col sm:flex-row gap-3">
                             <button type="submit" id="submitBtn"
                                     class="flex-1 bg-blue-600 text-white font-medium py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors duration-200 flex items-center justify-center">
-                                <span class="material-icons mr-2">send</span>
-                                Send via Email
+                                <span class="material-icons mr-2"></span>
+                                Enviar Mensaje
                             </button>
                             <!-- <button type="button" id="copyBtn"
                                     class="flex-1 bg-gray-600 text-white font-medium py-3 px-6 rounded-lg hover:bg-gray-700 transition-colors duration-200 flex items-center justify-center">
